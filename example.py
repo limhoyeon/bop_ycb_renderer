@@ -45,6 +45,8 @@ if __name__ == "__main__":
         )
 
         img = cv2.imread(rgb_path)
+
+        # rendering part!! // get data as DEEPIM input format
         rgb_tensor_1, mask_tensor, img, img_mask = renderer.get_deepim_input_set(img, gt_bbox, cam_k, transform_mat)
 
         # for result check
