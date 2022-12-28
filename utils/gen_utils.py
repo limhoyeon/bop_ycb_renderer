@@ -1,12 +1,14 @@
-import open3d as o3d
+#import open3d as o3d
 import numpy as np
 import torch
 import os
 import matplotlib.pyplot as plt
-from sklearn.neighbors import KDTree
+#from sklearn.neighbors import KDTree
 import json
-import pickle
 import cv2
+
+o3d=None
+KDTree=None
 
 def imshow(img):
     cv2.imshow("temp", img)
