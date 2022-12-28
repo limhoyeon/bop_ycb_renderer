@@ -4,6 +4,12 @@
 ```
 git clone https://github.com/limhoyeon/bop_ycb_renderer.git
 cd bop_ycb_renderer/ycb_render
+
+git clone https://github.com/pybind/pybind11.git
+cd pybind11
+git checkout f7bc18f
+cd ..
+
 sudo apt-get install libassimp-dev
 pip install -r requirement.txt
 export LD_LIBRARY_PATH=/usr/lib/nvidia-<vvv>:$LD_LIBRARY_PATH
