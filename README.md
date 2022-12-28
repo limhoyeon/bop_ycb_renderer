@@ -5,6 +5,7 @@
 sudo apt-get install libassimp-dev
 pip install -r requirement.txt
 export LD_LIBRARY_PATH=/usr/lib/nvidia-<vvv>:$LD_LIBRARY_PATH
+python setup.py develop
 ```
 
 ### reference
